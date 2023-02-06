@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.para {
+  max-width: 40vw;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+
+  background-color: rgb(29 29 30);
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 39px;
+  color: white;
+  margin-top: 11px;
+}
+
+.input {
+  width: 50vw;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  margin: 8px 2px;
+}
+.textarea {
+  width: 50vw;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  height: 100px;
+  margin: 8px 2px;
+}
